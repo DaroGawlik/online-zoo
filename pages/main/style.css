@@ -1,0 +1,361 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #333b41;
+	font-size: 1.6rem;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	line-height: 140%;
+}
+
+/* HEADER! */
+
+header {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 8rem;
+	width: 100%;
+	color: #ffffff;
+	background: #000000;
+}
+
+.header_nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header_logo {
+	margin-left: 200px;
+}
+
+.header_logo_hidden {
+	position: absolute;
+	left: -20000px;
+}
+
+.header_logo_src {
+	border: 1px solid #ffffff;
+	border-radius: 2px;
+	padding: 2px 2px;
+}
+
+.nav_item a,
+.figma_link {
+	color: #ffffff;
+	padding-left: 6rem;
+	transition: color 0.3s;
+}
+
+.nav_item a:hover,
+.figma_link:hover {
+	color: #f9804b;
+}
+
+.active {
+	color: #f9804b;
+}
+
+/* MAIN SECTION WATCH ONLINE */
+
+.watch_online {
+	position: relative;
+	background-image: url('../../assets/images/GiantPanda.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70rem;
+	z-index: 0;
+}
+
+.watch_online_box_shadow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.watch_online_container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.watch_online_circle {
+	position: absolute;
+	height: 465px;
+	width: 465px;
+	top: 1rem;
+	right: 33rem;
+	background-color: #f9804b;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.watch_online_info {
+	position: absolute;
+	height: 50rem;
+	width: 40rem;
+	top: 9rem;
+	right: 31rem;
+	font-size: 106.5px;
+	line-height: 79.87px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	z-index: 20;
+}
+
+.watch_online_info span {
+	color: #ffee2e;
+}
+
+.watch_online_button {
+	position: absolute;
+	width: 298px;
+	height: 54px;
+	right: 32rem;
+	bottom: 10rem;
+	background-color: #f9804b;
+	border-radius: 25px;
+	border: none;
+	z-index: 20;
+}
+
+.watch_online_button_link {
+	font-size: 1.6rem;
+	color: #ffffff;
+	text-transform: uppercase;
+	transition: color 0.3s;
+}
+
+.watch_online_button_link:hover {
+	color: rgba(255, 238, 46, 1);
+	font-size: 1.6rem;
+	cursor: pointer;
+}
+
+/* THE BACKSTAGE! */
+
+.the_backstage {
+	position: relative;
+}
+
+.the_backstage_wrapper {
+	margin: 14rem 0rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.the_backstage_wrapper_left {
+	padding-left: 22rem;
+}
+
+.bamboo_img {
+	height: 400px;
+	width: 600px;
+}
+
+.the_backstage_wrapper_right {
+	height: 40rem;
+	width: 60rem;
+	padding-left: 6rem;
+}
+
+.the_backstage_right_title_top {
+	font-size: 5rem;
+	font-weight: 400;
+	line-height: 120%;
+}
+
+.the_backstage_right_text_top {
+	padding-top: 2rem;
+	font-size: 1.6rem;
+	line-height: 130%;
+}
+
+.the_backstage_right_tittle_bottom {
+	padding-top: 5rem;
+	font-size: 24px;
+	line-height: 120%;
+}
+
+.the_backstage_right_text_bottom {
+	padding-top: 3rem;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.flower_foto_backstage_img img {
+	position: absolute;
+	top: -13rem;
+	right: 0;
+	width: 18rem;
+	height: 60rem;
+}
+
+/* PETS! */
+
+.animals {
+	position: relative;
+}
+
+.animals_wrapper {
+	position: relative;
+	width: 1200px;
+	height: auto;
+	margin: 180px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.animal_card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 36rem;
+	width: 36rem;
+	border: 1px solid orange;
+	margin: 2rem;
+	z-index: 1;
+	transition: all 0.3s;
+}
+
+.shadow_animal_card {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s ease-in-out;
+}
+
+.shadow_animal_card:hover {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 0;
+	cursor: pointer;
+}
+.animal_card:hover .animal_card_text {
+	opacity: 1;
+}
+
+.animal_title {
+	text-transform: uppercase;
+}
+
+.animal_card_text {
+	position: absolute;
+	top: 25rem;
+	left: 2rem;
+	height: 1rem;
+	color: #fef;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.animal_card_icon_bamboo {
+	position: absolute;
+	top: 1rem;
+	left: 28rem;
+	z-index: 1;
+}
+.animal_card_icon_banan {
+	position: absolute;
+	top: 1rem;
+	left: 28rem;
+	z-index: 2;
+}
+
+.animal_card_icon_steak {
+	position: absolute;
+	top: 1rem;
+	left: 28rem;
+	z-index: 2;
+}
+
+.animal_card_icon_meat {
+	position: absolute;
+	top: 0.5rem;
+	left: 28rem;
+	z-index: 1;
+}
+
+.btn_arrow {
+	position: absolute;
+	top: 38rem;
+	width: 8rem;
+	background-color: #f9804b;
+	color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.3s;
+	z-index: 100;
+	padding: 23px;
+	border: none;
+}
+
+.btn_arrow_left {
+	right: 12rem;
+}
+
+.btn_arrow_right {
+	left: 12rem;
+}
+
+.btn_arrow:hover {
+	background: greenyellow;
+}
+
+.animals_btn {
+	display: block;
+	width: 29rem;
+	margin: 80px auto 100px;
+	padding: 16px 0px 16px;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: #fe9013;
+	border-radius: 25px;
+	border: none;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.animals_btn:hover {
+	background: greenyellow;
+}
+
+.flowe_foto_animals_left {
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+	width: 38rem;
+}
+.flowe_foto_animals_right {
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 40rem;
+}
