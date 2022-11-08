@@ -101,9 +101,6 @@
 	margin-top: 10rem;
 }
 
-.pandaImg_diet_days {
-}
-
 #days {
 	font-size: 70px;
 	font-weight: 900;
@@ -132,15 +129,165 @@
 	margin-left: 6rem;
 }
 
-.donate_bar_container {
-	display: flex;
-	margin-top: 9rem;
-	align-items: center;
-	width: 97rem;
+.donate_radio_title {
+	margin: 5rem 0 0 10rem;
 }
 
-.pay-bar__scale {
+.donate_radio_container::before {
+	content: '';
+	position: absolute;
+	width: 976px;
+	height: 27px;
+	background: #404950;
+	border-radius: 2px;
+}
+
+.donate_radio_container {
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
+	width: 976px;
+	margin: 2rem auto 0 auto;
+	transition: 0.3s;
+}
+
+.donate_radio_container::after {
+	content: '';
+	position: absolute;
+	width: 915px;
+	height: 2px;
+	background: #72828e;
+	left: auto;
+	margin: 12px 25px;
+}
+
+.cash_btn {
+	position: relative;
+	padding-top: 3px;
+	z-index: 1;
+}
+
+.cash_btn_input {
+	margin-left: 2rem;
+	background: yellow;
+}
+
+.cash_btn_label {
+	width: 60px;
+	height: 36px;
+	margin-top: 1rem;
+	font-size: 26px;
+	line-height: 140%;
+	color: #333b41;
+}
+
+.cash_btn input[type='radio']:checked::after {
+	content: '';
+	position: absolute;
+	background: url(../../assets/icons/roller_icon.png);
+	width: 40px;
+	height: 40px;
+	top: -8px;
+	left: 6px;
+}
+
+.cash_btn_input:checked + label {
+	color: #fe9013;
+}
+
+.donate__amount {
+	position: relative;
+	margin: 0 auto 26px;
+	display: block;
+}
+
+.amount_input {
+	margin-left: 9rem;
+	margin-top: 50px;
+	padding-left: 9px;
+	display: flex;
+	width: 268px;
+	height: 52px;
+	background: url('../../assets/icons/dolar.png');
+	background-repeat: no-repeat;
+	background-position: center right;
+	border: 1px solid #929699;
+	border-radius: 2px;
+}
+
+.amount_input[type='number']::placeholder {
+	color: #929699;
+}
+
+.amount_input:focus {
+	background: url('../../../assets/icons/dollar_active.svg');
+	background-repeat: no-repeat;
+	background-position: center right;
+	border: 1px solid #0faa07;
+	color: #0faa07;
+}
+
+.amount_input:focus {
+	outline: #4b9200;
+}
+
+.pickAndFeed_container_plan {
+	gap: 10px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.pickAndFeed_container_plan label {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0em;
+	color: #333b41;
+}
+
+.plan_input {
+	appearance: none;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	background: rgba(0, 0, 0, 0);
+	border: 1px solid #fe9013;
+	transition: 0.2s all linear;
+	margin-right: 5px;
+	position: relative;
+	top: 2.5px;
+}
+
+.plan_input:checked {
+	border: 1px solid #4b9200;
+	background: #4b9200;
+}
+
+.pickAndFeed_container_btn {
+	display: block;
+	width: 29rem;
+	margin: 5rem auto 0 auto;
+	padding: 16px 0px 16px;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: #fe9013;
+	border-radius: 25px;
+	border: none;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.pickAndFeed_container_btn:hover {
+	background: #e47209;
+}
+.pickAndFeed_container_btn:active {
+	background: #4b9200;
+}
+
+.pickAndFeed_container_bottom_p {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
 }
