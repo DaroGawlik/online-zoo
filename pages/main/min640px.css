@@ -1,0 +1,368 @@
+/* HEADER! */
+header {
+	width: 64rem;
+	height: 3.4rem;
+}
+.header_logo {
+	position: absolute;
+	margin-left: 0;
+	left: 2rem;
+	top: 0.1rem;
+}
+.header_logo_src {
+	margin-top: 3px;
+	width: 46.86px;
+	height: 29.03px;
+}
+
+.header_nav,
+.figma_link {
+	display: none;
+}
+
+.burder_icon_nav {
+	position: absolute;
+	display: inline;
+	height: 2rem;
+	width: 2rem;
+	top: 1rem;
+	right: 1rem;
+}
+
+/* MAIN SECTION WATCH ONLINE */
+
+.watch_online {
+	background-image: url('../../assets/images/Giant\ Panda\(640-999\).png');
+	height: 37.3rem;
+}
+
+.watch_online_circle {
+	width: 23.7rem;
+	height: 23.76rem;
+	top: 1rem;
+	right: 7rem;
+}
+
+.watch_online_info {
+	top: 5rem;
+	right: 2rem;
+	width: 255.64px;
+	height: 204.38px;
+	font-weight: 700;
+	font-size: 54.2894px;
+	line-height: 75%;
+}
+
+.watch_online_button {
+	bottom: 4rem;
+}
+
+/* THE BACKSTAGE! */
+
+.the_backstage_wrapper {
+	margin: 0;
+}
+
+.the_backstage_wrapper_left {
+	display: none;
+}
+
+.the_backstage_wrapper_right {
+	margin-top: 6rem;
+	margin-left: 2.4rem;
+	padding-left: 0;
+}
+
+.the_backstage_right_text_top {
+	width: 454px;
+	height: 42px;
+}
+
+.the_backstage_right_tittle_bottom {
+	padding-top: 3rem;
+}
+
+.the_backstage_right_text_bottom {
+	width: 49.5rem;
+	height: 11rem;
+	padding-top: 2rem;
+}
+
+.flower_foto_backstage {
+	background-image: url('../../assets/images/Flower_foto_backstage\(640-999\).png');
+	position: absolute;
+	height: 47.6rem;
+	width: 13rem;
+	right: 0;
+	top: 0rem;
+}
+
+/* PETS! */
+
+.animals_wrapper {
+	width: 64rem;
+	justify-content: space-evenly;
+	margin: 0;
+}
+
+.animal_card {
+	width: 28rem;
+	height: 28rem;
+	margin-top: 3rem;
+	margin-bottom: 6rem;
+}
+
+.gorillas_responisve_640,
+.penguins_responisve_640 {
+	display: none;
+}
+
+.animal_card_text {
+	top: 20rem;
+}
+
+h5 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.animal_card_text p {
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 120%;
+}
+
+.animal_card_icon_bamboo {
+	left: 22rem;
+}
+
+.animal_card_icon_banan {
+	left: 21rem;
+}
+
+.animal_card_icon_steak {
+	left: 20rem;
+}
+
+.animal_card_icon_meat {
+	top: 2rem;
+	left: 21rem;
+	z-index: 2;
+}
+
+.btn_arrow {
+	width: 6.2rem;
+	height: 6.2rem;
+}
+
+.btn_arrow_left {
+	top: 32rem;
+	right: 24rem;
+}
+
+.btn_arrow_right {
+	top: 32rem;
+	left: 24rem;
+}
+
+.animals_btn {
+	margin-bottom: 10rem;
+}
+
+.pets_palm {
+	background-image: url('../../assets/images/palm_foto\(640-999\).png');
+	position: absolute;
+	height: 20rem;
+	width: 13rem;
+	left: 0;
+	bottom: -10rem;
+}
+.pets_strelitzia {
+	background-image: url('../../assets/images/strelitzia\(640-999\).png');
+	position: absolute;
+	height: 13rem;
+	width: 17rem;
+	right: 0;
+	bottom: -10rem;
+}
+
+/* PICK AND FEED */
+
+.feed {
+	height: 100%;
+	width: 64rem;
+	overflow: none;
+}
+
+.feed_container {
+	height: 78rem;
+	width: 64rem;
+	margin: 2rem 0 2rem 0;
+}
+
+.feed_container_text {
+	width: 600px;
+	padding-top: 0;
+	padding-left: 2rem;
+}
+
+.feed_container_text h2 {
+	padding-top: 1rem;
+}
+
+.feed_text_first {
+	margin-top: 2rem;
+	width: 600px;
+	height: 52px;
+	font-size: 22px;
+}
+
+.feed_text_second {
+	margin-top: 2rem;
+	width: 600px;
+	height: 42px;
+}
+
+.feed_text_third {
+	width: 600px;
+	height: 42px;
+}
+
+.header_how_it_works {
+	margin-top: 3rem;
+}
+.how_it_works_container {
+	position: relative;
+	width: 64rem;
+	justify-content: space-around;
+}
+
+.feed_arrow {
+	display: none;
+}
+
+.work_arrow_640_left,
+.work_arrow_640_right {
+	display: inline;
+	width: 9rem;
+	height: 3rem;
+}
+
+.work_arrow_640_left {
+	position: absolute;
+	top: -2rem;
+	left: 17rem;
+}
+
+.work_arrow_640_right {
+	position: absolute;
+	top: -2rem;
+	right: 17rem;
+}
+
+/* TESTIMONTIALS! */
+
+.testimonials {
+	width: 64rem;
+	padding-bottom: 0rem;
+}
+
+.testimonials h2 {
+	margin: 6rem 0 3rem 0rem;
+}
+
+.testimonials_container {
+	flex-direction: column;
+	margin-top: 0rem;
+	width: 64rem;
+}
+
+.testimonials_card {
+	width: 60rem;
+	height: 11rem;
+	margin: 1rem 2rem 1rem 2rem;
+	overflow: hidden;
+}
+
+.testimonial_card_text {
+	max-width: 57rem;
+	margin: 0;
+}
+
+.input_range {
+	display: none;
+}
+
+.testimonials_btn {
+	margin: 3rem auto 8rem;
+}
+
+.testimonials_leaf {
+	background-image: url('../../assets/images/leaf\(640-999\).png');
+	position: absolute;
+	height: 20rem;
+	width: 11rem;
+	right: 0;
+	bottom: -14rem;
+}
+
+/* FOOTER */
+footer {
+	width: 64rem;
+	height: 28rem;
+	position: relative;
+	display: block;
+}
+
+form {
+	display: none;
+}
+
+.footer_logo_src {
+	position: absolute;
+	top: 1rem;
+	left: 2rem;
+}
+
+.footer_btn {
+	position: absolute;
+	top: 10rem;
+	left: 2rem;
+}
+
+.footer_socialMedia {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+.name_socialMedia_Responsive {
+	display: none;
+}
+
+.footer_middle {
+	position: absolute;
+	justify-content: space-between;
+	height: 2rem;
+	width: 27rem;
+	left: 2rem;
+	bottom: 0rem;
+}
+
+.footer_navs {
+	margin-bottom: 1rem;
+}
+.footer_right {
+	position: absolute;
+	height: 2rem;
+	width: 27rem;
+	bottom: 1rem;
+	right: 0;
+}
+
+.footer_copy_right {
+	bottom: 0;
+}

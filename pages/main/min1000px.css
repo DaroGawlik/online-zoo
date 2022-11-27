@@ -1,0 +1,313 @@
+/* HEADER! */
+
+header {
+	height: 8rem;
+	width: 100rem;
+	z-index: 1;
+}
+
+.header_logo {
+	position: absolute;
+	left: 3rem;
+}
+
+.header_nav {
+	position: absolute;
+	left: 12rem;
+}
+
+.nav_item a {
+	padding-left: 5rem;
+}
+
+.figma_link {
+	position: absolute;
+	right: 3rem;
+}
+
+.burder_icon_nav {
+	display: none;
+}
+
+/* MAIN SECTION WATCH ONLINE */
+
+.watch_online {
+	background-image: url('../../assets/images/GiantPanda\(1000-1599\).png');
+	width: 100rem;
+	height: 50rem;
+	position: none;
+}
+
+.watch_online_box_shadow {
+	width: 100rem;
+	height: 50rem;
+}
+
+.watch_online_circle {
+	height: 37rem;
+	width: 37rem;
+	top: -1rem;
+	right: 18rem;
+}
+
+.watch_online_info {
+	width: 40rem;
+	height: 32rem;
+	top: 5rem;
+	right: 8.5rem;
+	font-size: 8.5rem;
+	font-weight: 700;
+	line-height: 75%;
+}
+
+.watch_online_button {
+	right: 13rem;
+	bottom: 5rem;
+}
+
+/* THE BACKSTAGE! */
+
+.the_backstage_wrapper {
+	margin: 10rem 0rem 4rem 0rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.the_backstage_wrapper_left {
+	margin-left: 3rem;
+	background-image: url(../../assets/images/bamboo_cap\(1000-1599\).png);
+	width: 45.5rem;
+	height: 41rem;
+}
+
+.bamboo_img {
+	display: none;
+}
+
+.the_backstage_wrapper_right {
+	width: 45.5rem;
+	padding-left: 0;
+}
+
+.the_backstage_right_title_top {
+	height: 116px;
+	width: 45.5rem;
+	margin-left: 3rem;
+	font-size: 48px;
+}
+.the_backstage_right_text_top {
+	width: 45.5rem;
+	margin-left: 3rem;
+}
+
+.the_backstage_right_tittle_bottom {
+	margin-left: 3rem;
+	font-weight: 400;
+}
+
+.the_backstage_right_text_bottom {
+	width: 45.5rem;
+	margin-left: 3rem;
+}
+
+.flower_foto_backstage {
+	display: none;
+}
+
+/* PETS! */
+
+.animals_wrapper {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100rem;
+	justify-content: space-evenly;
+}
+
+.animal_card {
+	height: 29rem;
+	width: 29rem;
+	margin-top: 10rem;
+	margin-bottom: 0rem;
+	border-radius: 5px;
+}
+
+.btn_arrow_left {
+	top: 41rem;
+	right: 36rem;
+}
+
+.btn_arrow_right {
+	top: 41rem;
+	left: 36rem;
+}
+
+.animal_card_text {
+	top: 23rem;
+}
+
+.animal_card_icon_bamboo {
+	left: 23rem;
+}
+.animal_card_icon_banan {
+	left: 22rem;
+}
+
+.animal_card_icon_steak {
+	left: 21rem;
+}
+
+.animal_card_icon_meat {
+	top: 2rem;
+	left: 22rem;
+	z-index: 3;
+}
+
+.animals_btn {
+	margin-top: 8rem;
+	margin-bottom: 14rem;
+}
+
+.pets_palm {
+	background-image: url('../../assets/images/palm_foto\(1000-1599\).png');
+	position: absolute;
+	height: 20rem;
+	width: 19rem;
+	left: 0;
+	bottom: -14rem;
+}
+
+.pets_strelitzia {
+	background-image: url('../../assets/images/strelitzia\(1000-1599\).png');
+	position: absolute;
+	height: 18rem;
+	width: 24rem;
+	right: 0;
+	bottom: -14rem;
+}
+
+/* PICK AND FEED */
+
+.feed {
+	height: 91rem;
+}
+
+.feed_container {
+	width: 94rem;
+	margin: 3rem auto 5rem;
+}
+
+.feed_container_text {
+	padding-top: 3rem;
+	padding-left: 0;
+}
+
+.feed_text_first,
+.feed_text_second,
+.feed_text_third {
+	margin-top: 2rem;
+	padding-left: 5rem;
+	padding-right: 4rem;
+}
+
+.feed_btn {
+	margin: 7rem auto 5rem;
+}
+
+/* TESTIMONTIALS! */
+
+.testimonials {
+	height: 100%;
+	width: 100rem;
+	padding-bottom: 14rem;
+}
+
+.testimonials_container {
+	width: 100rem;
+	height: 100%;
+	margin: 1rem auto 0;
+}
+
+.testimonials h2 {
+	margin-top: 10rem;
+	margin-bottom: 0rem;
+}
+.testimonials_card_1000 {
+	display: none;
+}
+
+.testimonials_card {
+	width: 29.3rem;
+	height: 39.1rem;
+	margin-top: 1rem;
+}
+
+.testimonial_card_text {
+	width: 25.9rem;
+	height: 30.9rem;
+	margin-left: 1rem;
+	margin-bottom: 0rem;
+}
+
+.input_range {
+	margin-left: 35rem;
+	width: 3rem;
+}
+
+.testimonials_btn {
+	margin-top: 4rem;
+	margin-left: 2rem;
+}
+
+input[type='range'] {
+	width: 30rem;
+}
+
+/* FOOTER */
+
+footer {
+	width: 100rem;
+	height: 443px;
+	background-color: #000;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_left {
+	margin-left: 3rem;
+	justify-content: space-evenly;
+}
+
+.footer_socialMedia {
+	margin-bottom: 2rem;
+}
+
+.footer_middle {
+	width: 40rem;
+}
+
+.li-list_footer {
+	margin-right: 4rem;
+}
+
+.footer_right {
+	position: relative;
+	margin-right: 3rem;
+}
+
+form[method='post'] {
+	position: absolute;
+	right: 19.8rem;
+}
+
+input[type='submit'] {
+	position: absolute;
+	top: 4.3rem;
+	right: -12rem;
+	color: black;
+	border: black;
+}
+
+.footer_copy_right h3 {
+	margin: 5px 0 0 0;
+}

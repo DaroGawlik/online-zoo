@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="input_range.css">
 </head>
 
 <body>
@@ -28,6 +27,8 @@
         </nav>
         <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="figma_link"
             target="_blank">Designed by &copy;</a></p>
+        <div class="burder_icon_nav">☰</div>
+        </div>
     </header>
 
     <main>
@@ -53,18 +54,21 @@
 
                 <div class="the_backstage_wrapper_right">
                     <h2 class="the_backstage_right_title_top">The Backstage of the Wilderness World.</h2>
-                    <p class="the_backstage_right_text_top">The site was founded on the basis of a volunteer movement to
+                    <p class="the_backstage_right_text_top">The site was founded on the basis of a volunteer
+                        movement to
                         protect and care for animals.</p>
                     <p class="the_backstage_right_tittle_bottom">How it works </p>
-                    <p class="the_backstage_right_text_bottom">The main goal is to help the animals, as well as the
+                    <p class="the_backstage_right_text_bottom">The main goal is to help the animals, as well as
+                        the
                         nature reserves and zoos where they are kept. We are
-                        currently working on video projects targeting pandas in China, eagles on an island near Los
-                        Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500
+                        currently working on video projects targeting pandas in China, eagles on an island near
+                        Los
+                        Angeles, alligators in Florida and gorillas in the Congo. These have a total of more
+                        than 1,500
                         mammals and reptiles. </p>
                 </div>
             </div>
-            <div class="flower_foto_backstage_img"><img src="../../assets/images/Flower_foto_backstage.png"
-                    alt="img plant"></div>
+            <div class="flower_foto_backstage"></div>
         </section>
 
         <section class="animals">
@@ -93,7 +97,7 @@
                         <img src="../../assets/icons/fish_icon.png" alt="meat" class="animal_card_icon_meat">
                     </div>
                 </div>
-                <div class="animal_card">
+                <div class="animal_card gorillas_responisve_640">
                     <div class="shadow_animal_card"></div>
                     <img src="../../assets/images/Gorillas.png" alt="Gorillas">
                     <div class="animal_card_text">
@@ -114,7 +118,7 @@
                     </div>
 
                 </div>
-                <div class="animal_card">
+                <div class="animal_card Cheethas_responisve_600">
                     <div class="shadow_animal_card"></div>
                     <img src="../../assets/images/Cheethas.png" alt="Cheethas">
                     <div class="animal_card_text">
@@ -124,7 +128,7 @@
                         <img src="../../assets/icons/fish_icon.png" alt="meat" class="animal_card_icon_meat">
                     </div>
                 </div>
-                <div class="animal_card">
+                <div class="animal_card penguins_responisve_640">
                     <div class="shadow_animal_card"></div>
                     <img src="../../assets/images/penguins.png" alt="penguins">
                     <div class="animal_card_text">
@@ -135,13 +139,15 @@
                     </div>
                 </div>
             </div>
+            </div>
             <button class="animals_btn">choose your favorite</button>
-            <img src="../../assets/images/palm_foto.png" alt="palmFoto" class="flower_foto_animals_left">
-            <img src="../../assets/images/strelitzia.png" alt="strelitzia" class="flower_foto_animals_right">
+            <div class="pets_palm"></div>
+            <div class="pets_strelitzia"></div>
             <div>
                 <button class="btn_arrow btn_arrow_right">&larr;</button>
                 <button class="btn_arrow btn_arrow_left">&rarr;</button>
             </div>
+
         </section>
 
         <section class="feed">
@@ -174,6 +180,7 @@
                         </div>
                     </div>
                     <img src="../../assets/images/arrow.png" alt="arrow" class="feed_arrow">
+                    <img src="../../assets/images/arrow(640-999).png" alt="arrow" class="work_arrow_640_left">
                     <div class="how_it_works_container_card">
                         <div class="feed_card_logo">
                             <img src="../../assets/images/hand.png" alt="handLogo" />
@@ -183,6 +190,7 @@
                         </div>
                     </div>
                     <img src="../../assets/images/arrow.png" alt="arrow" class="feed_arrow">
+                    <img src="../../assets/images/arrow(640-999).png" alt="arrow" class="work_arrow_640_right">
                     <div class="how_it_works_container_card">
                         <div class="feed_card_logo">
                             <img src="../../assets/images/monkey.png" alt="monkeylogo" />
@@ -192,7 +200,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="../donate/donate.html" class=" feed_btn">
+                <a href="../donate/donate.html" class="feed_btn">
                     <p>Feed a friend now</p>
                 </a>
             </div>
@@ -205,8 +213,8 @@
                     <div class="testimonials_header">
                         <img src="../../assets/icons/user1.png" alt="" />
                         <div class="testimonials_profil">
-                            <h3>Michael John</h5>
-                                <h4>Local Austria &#x2022; Today</h4>
+                            <h3>Michael John</h3>
+                            <h4>Local Austria &#x2022; Today</h4>
                         </div>
                     </div>
                     <div class="testimonial_card_text">
@@ -267,7 +275,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="testimonials_card">
+                <div class="testimonials_card testimonials_card_1000">
                     <div class="testimonials_header">
                         <img src="../../assets/icons/user4.png" alt="" />
                         <div class="testimonials_profil">
@@ -295,7 +303,8 @@
                 <input type="range" class="istyle" />
             </div>
             <button type="button" class="testimonials_btn">Leave feedback</button>
-            <img src="../../assets/images/leaf.png" alt="leaf" class="testimonials_leaf">
+            <div class="testimonials_leaf"></div>
+
         </section>
     </main>
     <footer>
@@ -314,28 +323,32 @@
                         <a href="https://www.facebook.com/" target="_blank"><img src="../../assets/icons/facebook.png"
                                 alt="facebook logo" /></a>
                     </div>
-                    <h4><a href="https://www.facebook.com/" target="_blank">Facebook</a></h4>
+                    <h4 class="name_socialMedia_Responsive"><a href="https://www.facebook.com/"
+                            target="_blank">Facebook</a></h4>
                 </div>
                 <div class="footer_socialMedia_piece">
                     <div class="footer_socialMedia_icon">
                         <a href="https://twitter.com/" target="_blank"><img src="../../assets/icons/Twitter.png"
                                 alt="twitter logo" /></a>
                     </div>
-                    <h4><a href="https://twitter.com/" target="_blank">Twitter</a></h4>
+                    <h4 class="name_socialMedia_Responsive"><a href="https://twitter.com/" target="_blank">Twitter</a>
+                    </h4>
                 </div>
                 <div class="footer_socialMedia_piece">
                     <div class="footer_socialMedia_icon">
                         <a href="https://www.instagram.com/" target="_blank"><img src="../../assets/icons/Instagram.png"
                                 alt="instagram logo" /></a>
                     </div>
-                    <h4><a href="https://www.instagram.com/" target="_blank">Instagram</a></h4>
+                    <h4 class="name_socialMedia_Responsive"><a href="https://www.instagram.com/"
+                            target="_blank">Instagram</a></h4>
                 </div>
                 <div class="footer_socialMedia_piece">
                     <div class="footer_socialMedia_icon">
                         <a href="https://www.youtube.com/" target="_blank"><img src="../../assets/icons/Youtube.png"
                                 alt="youtube logo" /></a>
                     </div>
-                    <h4><a href="https://www.youtube.com/" target="_blank">YouTube</a></h4>
+                    <h4 class="name_socialMedia_Responsive"><a href="https://www.youtube.com/"
+                            target="_blank">YouTube</a></h4>
                 </div>
             </div>
         </div>
@@ -370,4 +383,5 @@
     </footer>
 
 </body>
+
 </html>
