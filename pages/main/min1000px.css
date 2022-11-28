@@ -2,7 +2,7 @@
 
 header {
 	height: 8rem;
-	width: 100rem;
+	width: 100%;
 	z-index: 1;
 }
 
@@ -33,13 +33,13 @@ header {
 
 .watch_online {
 	background-image: url('../../assets/images/GiantPanda\(1000-1599\).png');
-	width: 100rem;
+	width: 100%;
 	height: 50rem;
 	position: none;
 }
 
 .watch_online_box_shadow {
-	width: 100rem;
+	width: 100%;
 	height: 50rem;
 }
 
@@ -67,15 +67,20 @@ header {
 
 /* THE BACKSTAGE! */
 
+.the_backstage {
+	width: 100%;
+}
+
 .the_backstage_wrapper {
-	margin: 10rem 0rem 4rem 0rem;
+	margin: 10rem auto 4rem;
+	width: 94rem;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
 
 .the_backstage_wrapper_left {
-	margin-left: 3rem;
+	margin-left: 1rem;
 	background-image: url(../../assets/images/bamboo_cap\(1000-1599\).png);
 	width: 45.5rem;
 	height: 41rem;
@@ -190,6 +195,7 @@ header {
 
 .feed {
 	height: 91rem;
+	width: 100%;
 }
 
 .feed_container {
@@ -218,7 +224,7 @@ header {
 
 .testimonials {
 	height: 100%;
-	width: 100rem;
+	width: 100%;
 	padding-bottom: 14rem;
 }
 
@@ -261,12 +267,15 @@ header {
 
 input[type='range'] {
 	width: 30rem;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /* FOOTER */
 
 footer {
-	width: 100rem;
+	width: 100%;
 	height: 443px;
 	background-color: #000;
 	display: flex;
