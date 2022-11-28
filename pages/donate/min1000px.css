@@ -1,0 +1,43 @@
+header {
+	height: 8rem;
+	width: 100%;
+	z-index: 1;
+}
+
+.section_image {
+	position: relative;
+	background-image: url('../../assets/images/panda_bg\(donate\ 1000-1599\).png');
+	width: 100%;
+	height: 39rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pickAndFeed {
+	height: 135rem;
+}
+
+.pickAndFeed_container {
+	width: 94rem;
+	height: 1333px;
+}
+
+.pickAndFeed_container_donation {
+	width: 94rem;
+}
+
+.pickAndFeed_container_donation_pandaImg {
+	margin-top: 5rem;
+}
+
+.donate_radio_container::before {
+	width: 810px;
+}
+
+.donate_radio_container {
+	width: 810px;
+}
+
+.donate_radio_container::after {
+	width: 750px;
+}

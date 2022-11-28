@@ -1,0 +1,164 @@
+header {
+	width: 100%;
+	height: 3.4rem;
+}
+
+.header_logo {
+	position: absolute;
+	margin-left: 0;
+	left: 2rem;
+	top: 0.1rem;
+}
+.header_logo_src {
+	margin-top: 3px;
+	width: 46.86px;
+	height: 29.03px;
+}
+
+.header_nav,
+.figma_link {
+	display: none;
+}
+
+.burder_icon_nav {
+	position: absolute;
+	display: inline;
+	height: 2rem;
+	width: 2rem;
+	top: 1rem;
+	right: 1rem;
+}
+
+.section_image {
+	position: relative;
+	background-image: url('../../assets/images/panda_bg\(donate\ 640-1000\).png');
+	width: 100%;
+	height: 33.5rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pickAndFeed {
+	width: 100%;
+}
+
+.pickAndFeed_container {
+	width: 64rem;
+	height: 130rem;
+}
+.pickAndFeed_container_text {
+	width: 60rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pickAndFeed_container_text_header {
+	font-size: 24px;
+	line-height: 120%;
+}
+
+.pickAndFeed_container_text_header p {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.pickAndFeed_container_donation_text h2 {
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 120%;
+}
+
+.pickAndFeed_container_donation {
+	width: 60rem;
+	height: 105rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.donate_radio_container::before {
+	width: 600px;
+}
+
+.donate_radio_container {
+	width: 600px;
+}
+
+.donate_radio_container::after {
+	width: 550px;
+}
+
+.cash_btn:nth-child(1),
+.cash_btn:nth-child(2),
+.cash_btn:nth-child(3) {
+	display: none;
+}
+
+.pickAndFeed_container_plan {
+	margin-top: 3rem;
+}
+
+.amount_input {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* FOOTER */
+footer {
+	width: 100%;
+	height: 28rem;
+	position: relative;
+	display: block;
+}
+
+form {
+	display: none;
+}
+
+.footer_logo_src {
+	position: absolute;
+	top: 1rem;
+	left: 2rem;
+}
+
+.footer_btn {
+	position: absolute;
+	top: 10rem;
+	left: 2rem;
+}
+
+.footer_socialMedia {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+.name_socialMedia_Responsive {
+	display: none;
+}
+
+.footer_middle {
+	position: absolute;
+	justify-content: space-between;
+	height: 2rem;
+	width: 27rem;
+	left: 2rem;
+	bottom: 0rem;
+}
+
+.footer_navs {
+	margin-bottom: 1rem;
+}
+.footer_right {
+	position: absolute;
+	height: 2rem;
+	width: 27rem;
+	bottom: 1rem;
+	right: 0;
+}
+
+.footer_copy_right {
+	bottom: 0;
+}
