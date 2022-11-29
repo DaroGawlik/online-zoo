@@ -39,3 +39,128 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.pickAndFeed {
+	width: 100%;
+	height: 122rem;
+}
+
+.pickAndFeed_container {
+	margin-top: 3rem;
+	width: 32rem;
+	height: 114.5rem;
+}
+
+.pickAndFeed_container_text {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.pickAndFeed_container_text_header {
+	font-size: 24px;
+	line-height: 120%;
+}
+.orange {
+	font-size: 24px;
+	margin-top: 3rem;
+}
+
+.pickAndFeed_container_donation {
+	width: 30rem;
+	height: 67rem;
+	margin-top: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pickAndFeed_container_donation_text h2 {
+	font-weight: 400;
+	font-size: 24px;
+	padding-top: 2rem;
+}
+
+.pickAndFeed_container_donation_text p {
+	font-size: 16px;
+}
+
+.pickAndFeed_container_donation_pandaImg {
+	margin-top: 1rem;
+}
+
+#days {
+	font-size: 42px;
+	padding-top: 1rem;
+}
+
+.pandaImg_diet_days p {
+	font-size: 9px;
+	padding-right: 0px;
+}
+
+.panda_big {
+	display: none;
+}
+.pandaImg_diet_pandaPng {
+	margin-left: 2rem;
+}
+
+.donate_radio_container::before {
+	width: 300px;
+}
+
+.donate_radio_container {
+	width: 300px;
+}
+
+.donate_radio_container::after {
+	width: 250px;
+}
+
+.cash_btn:nth-child(1),
+.cash_btn:nth-child(2),
+.cash_btn:nth-child(3) {
+	display: none;
+}
+.cash_btn_input {
+	margin-left: 2.4rem;
+}
+.cash_btn input[type='radio']:checked::after {
+	left: 10px;
+}
+
+.cash_btn_label {
+	font-weight: 500;
+	font-size: 13px;
+	padding-left: 1.5rem;
+}
+
+.amount_input {
+	margin-top: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20rem;
+	height: 4rem;
+}
+
+.pickAndFeed_container_plan {
+	margin-top: 2.5rem;
+	gap: 2rem;
+}
+
+.pickAndFeed_container_btn {
+	margin-top: 2rem;
+}
+.plan_input {
+	margin-right: 0px;
+}
+
+.pickAndFeed_container_bottom_p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	width: 302px;
+}
+
+.footer_copy_right {
+	right: 0;
+}

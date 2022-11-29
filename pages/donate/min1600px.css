@@ -290,4 +290,3 @@
 	justify-content: center;
 }
 
-@import './min1000px.css' screen and (min-width: 1000px) and (max-width: 1599px);
