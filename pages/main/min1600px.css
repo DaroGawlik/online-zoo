@@ -1,13 +1,8 @@
 /* HEADER! */
 header {
 	position: relative;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 	height: 8rem;
 	width: 100%;
-	color: #ffffff;
 	background: #000000;
 }
 
@@ -17,12 +12,15 @@ header {
 	justify-content: center;
 	align-items: center;
 	justify-content: space-between;
+	position: absolute;
+	left: 36.5rem;
 }
 
 .header_logo {
 	position: absolute;
 	left: 22rem;
 	top: 1.2rem;
+	z-index: 1;
 }
 
 .header_logo_hidden {
@@ -38,11 +36,6 @@ header {
 
 .nav_item a {
 	padding-left: 6rem;
-}
-
-.header_nav {
-	position: absolute;
-	left: 36.5rem;
 }
 
 .figma_link {
@@ -61,6 +54,26 @@ header {
 }
 
 .burder_icon_nav {
+	display: none;
+}
+
+.nav_popup {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 8rem;
+	width: 100%;
+	color: #ffffff;
+	background: #000000;
+}
+
+.header_logo_nav {
+	display: none;
+}
+
+.nav_popup_cross {
 	display: none;
 }
 
@@ -216,6 +229,8 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	overflow-x: auto;
+	scroll-behavior: auto;
 }
 
 .animal_card {
@@ -299,7 +314,6 @@ header {
 	border-radius: 50%;
 	cursor: pointer;
 	transition: all 0.3s;
-	z-index: 100;
 	padding: 23px;
 	border: none;
 }
@@ -316,6 +330,17 @@ header {
 .btn_arrow_right:hover,
 .animals_btn:hover {
 	background: #e47209;
+}
+/* CAROUSEL */
+
+.carousel {
+	overflow: auto;
+	scroll-behavior: smooth;
+	scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+	height: 0;
 }
 
 .animals_btn {
@@ -351,6 +376,8 @@ header {
 	right: 0;
 	bottom: -10rem;
 }
+
+/* CAROUSEL PETS */
 
 /* PICK AND FEED */
 

@@ -14,21 +14,31 @@
 </head>
 
 <body>
+
     <header>
         <h1 class=" header_logo_hidden">PetStory Online</h1>
         <p class="header_logo"><a href="../main/index.html"><img src="../../assets/icons/PetStory online.png"
                     alt="headerLogo" class="header_logo_src"></a></p>
-        <nav class="header_nav">
-            <ul class="nav_item"><a href="../main/index.html" class="acitve">About</a></ul>
-            <ul class="nav_item"><a href="#Map">Map</a></ul>
-            <ul class="nav_item"><a href="#Zoos">Zoos</a></ul>
-            <li class="nav_item"><a href="../donate/donate.html">Donate</a></li>
-            <ul class="nav_item"><a href="#Contact Us">Contact Us</a></ul>
-        </nav>
-        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="figma_link"
-            target="_blank">Designed by &copy;</a></p>
-        <div class="burder_icon_nav">☰</div>
+
+
+        <div class="nav_popup">
+            <p class="header_logo_nav"><a href="../main/index.html"><img src="../../assets/icons/PetStory online.png"
+                        alt="headerLogo" class="header_logo_src_nav"></a></p>
+            <nav class="header_nav">
+                <ul class="nav_item"><a href="../main/index.html" class="acitve">About</a></ul>
+                <ul class="nav_item"><a href="#Map">Map</a></ul>
+                <ul class="nav_item"><a href="#Zoos">Zoos</a></ul>
+                <ul class="nav_item"><a href="../donate/donate.html">Donate</a></ul>
+                <ul class="nav_item"><a href="#Contact Us">Contact Us</a></ul>
+            </nav>
+            <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+                class="figma_link figma_link_responsive" target="_blank">Designed by &copy;</a></p>
+
+            <div class="nav_popup_cross">X</div>
         </div>
+        <div class="burder_icon_nav">☰</div>
+        <div class="body_shadow" style="visibility: hidden;"></div>
+
     </header>
 
     <main>
@@ -46,8 +56,10 @@
         </section>
 
         <section class="the_backstage">
-
             <div class="the_backstage_wrapper">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-thin fa-user"></i>
+                <i class="fa-thin fa-circle-xmark"></i>
                 <div class="the_backstage_wrapper_left">
                     <img src="../../assets/images/bamboo_cap.png" alt="bambooFoto" class="bamboo_img">
                 </div>
@@ -74,7 +86,7 @@
         <section class="animals">
 
 
-            <div class="animals_wrapper">
+            <div class="animals_wrapper carousel" data-carousel data-slides>
                 <div class="animal_card">
                     <div class="shadow_animal_card"></div>
                     <img src="../../assets/images/giantPandas.png" alt="giantPandas">
@@ -118,7 +130,7 @@
                     </div>
 
                 </div>
-                <div class="animal_card Cheethas_responisve_600">
+                <div class="animal_card">
                     <div class="shadow_animal_card"></div>
                     <img src="../../assets/images/Cheethas.png" alt="Cheethas">
                     <div class="animal_card_text">
@@ -139,13 +151,13 @@
                     </div>
                 </div>
             </div>
-            </div>
+
             <button class="animals_btn">choose your favorite</button>
             <div class="pets_palm"></div>
             <div class="pets_strelitzia"></div>
             <div>
-                <button class="btn_arrow btn_arrow_right">&larr;</button>
-                <button class="btn_arrow btn_arrow_left">&rarr;</button>
+                <button class="btn_arrow btn_arrow_right" data-carousel-button="next">&larr;</button>
+                <button class="btn_arrow btn_arrow_left" data-carousel-button="priev">&rarr;</button>
             </div>
 
         </section>
@@ -315,7 +327,8 @@
                     <img src="../../assets/icons/PetStory online.png" alt="footerLogo" class="footer_logo_src">
                 </a>
             </div>
-            <button type="button" class="footer_btn" onclick="window.location.href='../donate/donate.html'">Donate for
+            <button type="button" class="footer_btn" onclick="window.location.href='../donate/donate.html'">Donate
+                for
                 volunteers</button>
             <div class="footer_socialMedia" id="contacts">
                 <div class="footer_socialMedia_piece">
@@ -357,8 +370,10 @@
                 <ul class="footer_navs">
                     <li class="li-list_footer"><a href="../main/index.html"
                             class="li-list-a footer_nav-a active">About</a></li>
-                    <li class="li-list_footer"><a href="../Map/index.html" class="li-list-a footer_nav-a">Map</a></li>
-                    <li class="li-list_footer"><a href="../Zoos/index.html" class="li-list-a footer_nav-a">Zoos</a></li>
+                    <li class="li-list_footer"><a href="../Map/index.html" class="li-list-a footer_nav-a">Map</a>
+                    </li>
+                    <li class="li-list_footer"><a href="../Zoos/index.html" class="li-list-a footer_nav-a">Zoos</a>
+                    </li>
 
                     <li class="li-list_footer"><a href="../Contact-us/index.html" class="li-list-a footer_nav-a">Contact
                             us</a>
@@ -381,7 +396,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
